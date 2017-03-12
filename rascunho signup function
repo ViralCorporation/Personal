@@ -1,0 +1,52 @@
+function checkName(){
+    if(document.getElementById("name-field").value === ""){
+            return false
+    }
+    
+    else{
+        var name document.getElementById("name-field").value;
+        if(name.length >= 3){
+            return true;
+        } else {
+            alert();
+        }
+    }
+}
+
+function checkEmail(){
+    if(document.getElementById("email-field").value === ""){
+        return false
+    }
+     
+    else{
+        var name document.getElementById("email-field").value;
+        if(name.length >= 3){
+            return true;
+        } else {
+            alert();
+        }
+    }
+}
+
+function checkPassword(){
+    if(document.getElementById("password-field").value === document.getElementById("confimPassword").value){
+        return true;
+    }
+    else {
+        var name document.getElementById("email-field").value;
+        if(name.length =< 3){
+            return false;
+        } else {
+            alert();
+        }
+    }
+}
+
+function verifyDataSignUp(){
+    if(checkName && checkEmail && checkPassword){
+        confirm();
+        return true;
+    } else {
+        return false;
+    }
+}

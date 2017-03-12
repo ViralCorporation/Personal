@@ -1,0 +1,241 @@
+html{
+     font-family: sans-serif;
+}
+
+html, body {
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    top:0; 
+    left:0;
+}
+body{
+    background: linear-gradient(30deg,#ff7107,#DB0A5B);
+}
+
+ul{
+    top: 0;
+    margin-top: 0%;
+    padding-top: 0%;
+    width: 20%;
+    float: left;
+}
+
+li{
+    list-style-type:none;
+    text-decoration: none;
+}
+
+footer{
+    background: #696969;
+    bottom: 0;
+    position: static;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: squared;
+    font: squared;
+    color: white;
+}
+
+
+.sprite-facebook{
+    float: right;
+    padding-right: 5%;
+}
+.sprite-twitter{
+    float: right;
+    padding-right: 5%;
+}
+.sprite-youtube{
+    float: right;
+    padding-right: 5%;
+}
+.social{
+    margin-top: 1%;
+    display: inline-block;
+    float: right;
+
+}
+.text-link{
+    color: white;
+    font-family: squared;
+    font: squared;
+    font-size: 20px;
+}
+.left{
+    padding-top: 3%;
+}
+
+.mdl-textfield__input{
+    text-emphasis-color: white;
+}
+
+.mdl-button mdl-js-button mdl-button--raised mdl-button--colored{
+    background: ;
+    color: white;
+}
+#row-fluid{
+    width: 25%;
+    top: 47%;
+    left: 40%;
+    right: 35%;
+    position: absolute;
+}
+#brand-name{
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    top: 30%;
+    margin-left: -90px;
+}
+
+#brand{
+    width: 100%;
+    top: 
+}
+
+#button{
+    float: right;
+    right: 11%;
+}
+#icon{
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    top: 20%;
+    margin-left: -50px;
+    height: 100px;
+}
+
+#label-sign{
+    color: white;
+}
+#brand-name{
+    font-family: squared;
+    font: squared;
+    color: white;
+    top: 40%;
+    font-size: 50px;
+    height: 30%;   
+}
+#brand{
+    top: 20%;
+    width: 100%;
+}
+
+.button-personal{
+    border: white;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+#footer{
+    background: ;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+
+@font-face {
+      font-family: "squared";
+      src: url('/font/Squared Display.ttf') format("truetype");
+}
+
+.squared-font{
+    font-family: "squared";  
+} 
+
+/* Smartphones (portrait and landscape) ———– */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    /* Styles */
+    #icon{
+        width: 200px;
+        height: 200px;
+        margin-left: -100px;
+    }
+}
+/* Smartphones (portrait) ———– */
+@media only screen and (max-width : 320px) {
+
+    /* Styles */
+    #icon{
+        width: 200px;
+        height: 200px;
+        margin-left: -100px;
+    }
+
+}
+/* iPads (portrait and landscape) ———– */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+    #icon{
+        width:200px;
+        height:200px;
+        margin-left: -100px;
+    }
+
+    
+}
+/* iPads (landscape) ———– */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+    #icon{
+        width:100px;
+        height:100px;
+    }
+
+}
+/* iPads (portrait) ———– */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+    #icon{
+        width:200px;
+        height:200px;
+
+    }
+
+}
+/* Desktops and laptops ———– */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+    #icon{
+        width:100px;
+        height:100px;
+    }
+    
+}
+
+/* Large screens ———– */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+    #icon{
+        width:200px;
+        height:200px;
+        margin-left: -100px;
+    }
+
+    
+}
+
+/* iPhone 4 ———– */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+    /* Styles */
+    #icon{
+        width: 200px;
+        height: 200px;
+        margin-left: -100px;
+    }
+
+}

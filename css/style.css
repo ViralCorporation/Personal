@@ -143,14 +143,10 @@ h1, h2, h3, h4, h5{
 
 
 @font-face {
-      font-family: "squared";
       font-family: "squared display regular";
       src: url('/font/Squared Display.ttf') format("truetype");
 }
 
-.squared-font{
-    font-family: "squared display regular";
-} 
 
 /* Smartphones (portrait and landscape) ———– */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {

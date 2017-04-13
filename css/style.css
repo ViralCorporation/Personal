@@ -105,10 +105,10 @@ h1, h2, h3, h4, h5{
 #icon{
     position: absolute;
     display: inline-block;
-    left: 50%;
+    left: 46%;
+    right: 46%;
     top: 20%;
-    margin-left: -3%;
-    height: 15%;
+    width: 8%;
 }
 
 #label-sign{

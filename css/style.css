@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5{
     display: inline-block;
     left: 50%;
     top: 20%;
-    margin-left: -7.5%;
+    margin-left: -4%;
     height: 15%;
 }
 
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5{
     font-family: squared display regular;
     color: white;
     top: 40%;
-    font-size: 50px;
+    font-size: 400%;
     height: 30%;   
 }
 #brand{
@@ -145,6 +145,5 @@ h1, h2, h3, h4, h5{
       font-family: "squared display regular";
       src: url('/css/font/Squared Display.ttf') format("truetype");
 }
-
 
 }

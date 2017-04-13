@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5{
 }
 .text-link{
     color: white;
-    font-family: squared;
+    font-family: squared display regular;
     font: squared;
     font-size: 20px;
 }
@@ -85,18 +85,6 @@ h1, h2, h3, h4, h5{
     right: 35%;
     position: absolute;
 }
-#brand-name{
-    position: absolute;
-    display: inline-block;
-    left: 50%;
-    top: 30%;
-    margin-left: -90px;
-}
-
-#brand{
-    width: 100%;
-    top: 
-}
 
 #button{
     float: right;
@@ -105,21 +93,34 @@ h1, h2, h3, h4, h5{
 #icon{
     position: absolute;
     display: inline-block;
-    left: 46%;
-    right: 46%;
-    top: 20%;
-    width: 8%;
+    left: 45%;
+    right: 45%;
+    top: 15%;
+    width: 10%;
+}
+#sample3{
+
 }
 
 #label-sign{
     color: white;
 }
+#row-fluid-principal{
+    display:inline-table;
+}
+#form-login{
+
+}
+
 #brand-name{
-    font-family: squared display regular;
     color: white;
     top: 40%;
-    font-size: 400%;
-    height: 30%;   
+    font-size: 350%;
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    margin-left: -90px;
+    font-family: squared display regular;
 }
 #brand{
     top: 20%;
@@ -143,7 +144,5 @@ h1, h2, h3, h4, h5{
 
 @font-face {
       font-family: "squared display regular"; important!
-      src: url('/css/font/Squared Display.ttf') format("truetype");
-}
-
+      src: url('/font/Squared Display.ttf') format("truetype");
 }

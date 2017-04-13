@@ -153,11 +153,8 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
     /* Styles */
     #icon{
-        position: absolute;
-        display: inline-block;
         left: 42.5%;
         right: 42.5%;
-        top: 15%;
         width: 15%;
     }
 
@@ -167,11 +164,8 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
     /* Styles */
     #icon{
-        position: absolute;
-        display: inline-block;
         left: 42.5%;
         right: 42.5%;
-        top: 15%;
         width: 15%;
     }
 }
@@ -180,11 +174,8 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
     /* Styles */
     #icon{
-        position: absolute;
-        display: inline-block;
         left: 42.5%;
         right: 42.5%;
-        top: 15%;
         width: 15%;
     }
 

@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5{
 
 
 @font-face {
-      font-family: "squared display regular";
+      font-family: "squared display regular"; important!
       src: url('/css/font/Squared Display.ttf') format("truetype");
 }
 

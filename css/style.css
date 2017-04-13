@@ -233,10 +233,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
         height: 200px;
         margin-left: -100px;
     }
-    #row-fluid{
-    width: 80%;
-    top: 20%;
-    position: absolute;
-}
+
 
 }

@@ -79,3 +79,75 @@ h1, h2, h3, h4, h5{
     z-index: 10; /* keep on top of other elements on the page */
     box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
 }
+/* Smartphones (portrait and landscape) ———– */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    /* Styles */
+    .modal {
+    /* some styles to position the modal at the center of the page */
+	top: 15%;
+	left: 5%;
+	right: 5%;
+    }
+
+}
+/* Smartphones (portrait) ———– */
+@media only screen and (max-width : 320px) {
+
+    /* Styles */
+    .modal {
+    /* some styles to position the modal at the center of the page */
+	top: 15%;
+	left: 5%;
+	right: 5%;
+    }
+
+
+}
+/* iPads (portrait and landscape) ———– */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+
+
+
+}
+/* iPads (landscape) ———– */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    /* Styles */
+
+
+}
+/* iPads (portrait) ———– */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+
+}
+/* Desktops and laptops ———– */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+
+}
+
+/* Large screens ———– */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+
+
+}
+
+/* iPhone 4 ———– */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+    /* Styles */
+   .modal {
+    /* some styles to position the modal at the center of the page */
+	top: 15%;
+	left: 5%;
+	right: 5%;
+    }
+
+}

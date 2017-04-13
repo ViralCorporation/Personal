@@ -146,3 +146,47 @@ h1, h2, h3, h4, h5{
       font-family: "squared display regular"; important!
       src: url('/font/Squared Display.ttf') format("truetype");
 }
+/* iPhone 4 ———– */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+    /* Styles */
+    #icon{
+        position: absolute;
+        display: inline-block;
+        left: 42.5%;
+        right: 42.5%;
+        top: 15%;
+        width: 15%;
+    }
+
+}
+/* Smartphones (portrait and landscape) ———– */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    /* Styles */
+    #icon{
+        position: absolute;
+        display: inline-block;
+        left: 42.5%;
+        right: 42.5%;
+        top: 15%;
+        width: 15%;
+    }
+}
+/* Smartphones (portrait) ———– */
+@media only screen and (max-width : 320px) {
+
+    /* Styles */
+    #icon{
+        position: absolute;
+        display: inline-block;
+        left: 42.5%;
+        right: 42.5%;
+        top: 15%;
+        width: 15%;
+    }
+
+
+}

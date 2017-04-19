@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5{
     font-size: 48px;
     position: absolute;
     display: inline-block;
-    align-items: center;
+    text-align: center;
     left: 0;
     right: 0;
     font-family: Roboto, sans-serif;

@@ -138,6 +138,8 @@ h1, h2, h3, h4, h5{
     /* Styles */
     .icon{
         width: 15%;
+        left: 45%;
+        right: 45%;
     }
     #brand-name{
         font-size: 20px;

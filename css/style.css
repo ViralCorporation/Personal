@@ -83,12 +83,12 @@ h1, h2, h3, h4, h5{
 
 #brand-name{
     color: white;
-    top: 40%;
     font-size: 48px;
     position: absolute;
     display: inline-block;
     text-align: center;
     left: 0;
+    top: 40%;
     right: 0;
     font-family: Roboto, sans-serif;
     font-size: 2.7em;
@@ -96,18 +96,18 @@ h1, h2, h3, h4, h5{
     line-height: 1em;
     letter-spacing: 0.1em;
     color: white;
-    display: inline-block;
     margin-top: -0.7em;
     padding: 0.65em 0 0.65em 0.7em;
 
 }
+
 #brand{
-    top: 20%;
     width: 100%;
+    display: inline;
 }
 
 .icon{
-     position: absolute;
+    position: absolute;
     display: inline-block;
     left: 45%;
     right: 45%;

@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5{
 .icon{
     position: absolute;
     display: inline-block;
-    left: 45%;
+    left: 45.5%;
     right: 45%;
     top: 15%;
     width: 10%;
@@ -137,8 +137,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
     /* Styles */
     .icon{
-        left: 42.5%;
-        right: 42.5%;
         width: 15%;
     }
     #brand-name{
@@ -151,8 +149,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
     /* Styles */
     .icon{
-        left: 42.5%;
-        right: 42.5%;
         width: 15%;
     }
     #brand-name{
@@ -164,8 +160,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
     /* Styles */
     .icon{
-        left: 42.5%;
-        right: 42.5%;
         width: 15%;
     }
     #brand-name{

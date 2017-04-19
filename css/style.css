@@ -77,10 +77,6 @@ h1, h2, h3, h4, h5{
     display:inline-table;
 }
 
-#form-login{
-
-}
-
 #brand-name{
     color: white;
     font-size: 48px;
@@ -145,15 +141,5 @@ h1, h2, h3, h4, h5{
         font-size: 20px;
     }
 
-
-}
-/* iPhone 4 ———– */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-
-    #brand-name{
-        font-size: 20px;
-    }
 
 }

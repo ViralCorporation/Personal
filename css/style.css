@@ -77,10 +77,6 @@ h1, h2, h3, h4, h5{
     display:inline-table;
 }
 
-#form-login{
-
-}
-
 #brand-name{
     color: white;
     font-size: 48px;
@@ -109,10 +105,9 @@ h1, h2, h3, h4, h5{
 .icon{
     position: absolute;
     display: inline-block;
-    left: 45.5%;
-    right: 45%;
-    top: 15%;
-    width: 10%;
+    left: 46.5%;
+    top: 17%;
+    width: 7.5%;
 }
 
 .button-personal{
@@ -143,6 +138,10 @@ only screen and (min-device-pixel-ratio : 1.5) {
         font-size: 20px;
         top: 22%;
     }
+    #row_fluid{
+        left: 5%;
+        right: 5%;
+    }
 
 }
 /* Smartphones (portrait and landscape) ———– */
@@ -157,18 +156,8 @@ only screen and (min-device-pixel-ratio : 1.5) {
         font-size: 20px;
         top: 22%;
     }
-}
-/* Smartphones (portrait) ———– */
-@media only screen and (max-width : 320px) {
-
-    /* Styles */
-    .icon{
-        width: 17%;
+    #row_fluid{
+        left: 5%;
+        right: 5%;
     }
-    #brand-name{
-        font-size: 20px;
-        top: 22%;
-    }
-
-
 }

@@ -13,6 +13,9 @@ html, body {
 }
 body{
     background: linear-gradient(30deg,#ff7107,#DB0A5B);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 48px;
+
 }
 
 ul{
@@ -36,34 +39,12 @@ footer{
 }
 
 h1, h2, h3, h4, h5{
-    font-family: squared;
-    font: squared;
     color: white;
 }
 
-
-.sprite-facebook{
-    float: right;
-    padding-right: 5%;
-}
-.sprite-twitter{
-    float: right;
-    padding-right: 5%;
-}
-.sprite-youtube{
-    float: right;
-    padding-right: 5%;
-}
-.social{
-    margin-top: 1%;
-    display: inline-block;
-    float: right;
-
-}
 .text-link{
     color: white;
-    font-family: squared display regular;
-    font: squared;
+    font-family: 'Roboto Mono', monospace;
     font-size: 20px;
 }
 .left{
@@ -114,7 +95,8 @@ h1, h2, h3, h4, h5{
     display: inline-block;
     left: 50%;
     margin-left: -90px;
-    font-family: roboto;
+    font-family: 'Roboto Thin', monospace;
+
 }
 #brand{
     top: 20%;
@@ -136,6 +118,7 @@ h1, h2, h3, h4, h5{
     text-decoration: none;
     display: inline-block;
 }
+
 
 #footer{
     background: ;

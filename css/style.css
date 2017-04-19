@@ -137,15 +137,13 @@ h1, h2, h3, h4, h5{
 
     /* Styles */
     .icon{
-        width: 15%;
+        width: 20%;
     }
     #brand-name{
         font-size: 20px;
     }
     .login-form{
         position: absolute;
-        left: 30%;
-        right: 30%;
         height: auto;
         text-align: center;
         padding-bottom: 2%;
@@ -157,15 +155,13 @@ h1, h2, h3, h4, h5{
 
     /* Styles */
     .icon{
-        width: 15%;
+        width: 20%;
     }
     #brand-name{
         font-size: 20px;
     }
     .login-form{
         position: absolute;
-        left: 30%;
-        right: 30%;
         height: auto;
         text-align: center;
         padding-bottom: 2%;
@@ -213,15 +209,13 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
     /* Styles */
     .icon{
-        width: 15%;
+        width: 20%;
     }
     #brand-name{
         font-size: 20px;
     }
     .login-form{
         position: absolute;
-        left: 30%;
-        right: 30%;
         height: auto;
         text-align: center;
         padding-bottom: 2%;

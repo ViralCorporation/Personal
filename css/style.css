@@ -1,5 +1,5 @@
 html{
-     font-family: sans-serif;
+
 }
 
 html, body {
@@ -13,7 +13,6 @@ html, body {
 }
 body{
     background: linear-gradient(30deg,#ff7107,#DB0A5B);
-    font-family: 'Roboto Mono', monospace;
     font-size: 48px;
 
 }
@@ -42,11 +41,6 @@ h1, h2, h3, h4, h5{
     color: white;
 }
 
-.text-link{
-    color: white;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 20px;
-}
 .left{
     padding-top: 3%;
 }
@@ -95,7 +89,15 @@ h1, h2, h3, h4, h5{
     display: inline-block;
     left: 50%;
     margin-left: -90px;
-    font-family: 'Roboto Thin', monospace;
+    font-family: Roboto, sans-serif;
+    font-size: 2.7em;
+    font-weight: 100;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+    color: white;
+    display: inline-block;
+    margin-top: -0.7em;
+    padding: 0.65em 0 0.65em 0.7em;
 
 }
 #brand{
@@ -127,11 +129,6 @@ h1, h2, h3, h4, h5{
     width: 100%;
 }
 
-
-@font-face {
-      font-family: "squared display regular"; important!
-      src: url('/font/Squared Display.ttf') format("truetype");
-}
 /* iPhone 4 ———– */
 @media
 only screen and (-webkit-min-device-pixel-ratio : 1.5),

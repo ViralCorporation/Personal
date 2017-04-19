@@ -149,9 +149,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
     /* Styles */
    .modal {
     /* some styles to position the modal at the center of the page */
-	top: 15%;
-	left: 5%;
-	right: 5%;
+
     }
 
 }

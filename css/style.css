@@ -141,6 +141,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
     }
     #brand-name{
         font-size: 20px;
+        top: 22%;
     }
 
 }
@@ -150,9 +151,11 @@ only screen and (min-device-pixel-ratio : 1.5) {
     /* Styles */
     .icon{
         width: 17%;
+
     }
     #brand-name{
         font-size: 20px;
+        top: 22%;
     }
 }
 /* Smartphones (portrait) ———– */
@@ -164,6 +167,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
     }
     #brand-name{
         font-size: 20px;
+        top: 22%;
     }
 
 

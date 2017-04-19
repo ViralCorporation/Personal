@@ -132,6 +132,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
     /* Styles */
     .icon{
         width: 7%;
+        left: 47%;
     }
     #brand-name{
         font-size: 32px;

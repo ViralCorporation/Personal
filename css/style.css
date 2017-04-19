@@ -122,6 +122,15 @@ h1, h2, h3, h4, h5{
     display: inline-block;
 }
 
+.login-form{
+    position: absolute;
+	left: 30%;
+	right: 30%;
+	height: auto;
+	text-align: center;
+    padding-bottom: 2%;
+}
+
 
 #footer{
     background: ;

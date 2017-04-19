@@ -143,9 +143,9 @@ h1, h2, h3, h4, h5{
         font-size: 20px;
     }
     .login-form{
-        height: auto;
-        text-align: center;
-        padding-bottom: 2%;
+        left: 15%;
+        right: 15%;
+
     }
 
 }

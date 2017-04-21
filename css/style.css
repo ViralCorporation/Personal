@@ -1,6 +1,9 @@
 html{
 
 }
+.demo-avatar{
+    align-self: center;
+}
 
 html, body {
     position: absolute; 

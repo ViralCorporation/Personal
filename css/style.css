@@ -16,6 +16,19 @@ body{
     font-size: 48px;
 
 }
+table, th, td {
+    border: 1px solid transparent;
+}
+th, td {
+    padding: 20px;
+}
+th {
+    text-align: left;
+}
+table {
+    border-spacing: 5px;
+    border-color: transparent;
+}
 
 ul{
     top: 0;

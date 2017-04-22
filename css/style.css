@@ -46,14 +46,29 @@ footer{
     width: 100%;
 }
 
-h1, h2, h3, h4, h5{
+#subtitle{
+    color: white;
+    font-size: 23px !important;
+    text-align: center;
     font-family: Roboto, sans-serif;
     font-size: 2.7em;
     font-weight: 100;
     line-height: 1em;
     letter-spacing: 0.1em;
     color: white;
+    margin-top: -0.7em;
+    padding: 0.65em 0 0.65em 0.7em;
+
 }
+h4{
+
+    font-size: 2.7em;
+    font-weight: 100;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+    color: black;
+}
+
 
 .combo-view-traine{
 
@@ -156,6 +171,10 @@ only screen and (min-device-pixel-ratio : 1.5) {
         font-size: 32px;
         top: 38%;
     }
+    #account-email{
+        padding-left: 3%;
+        padding-top: 2%;
+    }
     #row_fluid{
         left: 5%;
         right: 5%;
@@ -174,6 +193,13 @@ only screen and (min-device-pixel-ratio : 1.5) {
     #brand-name{
         font-size: 20px;
         top: 35%;
+    }
+    #account-email{
+        padding-left: 3%;
+        padding-top: 2%;
+    }
+    #avatar{
+        padding-left: 60px;
     }
     #row_fluid{
         left: 5%;

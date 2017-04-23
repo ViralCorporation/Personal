@@ -34,6 +34,7 @@
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#3372DF">
+    <script src="js/main.js"></script>
     <link rel="stylesheet" href="css/style.css" />
 
     <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
@@ -112,82 +113,81 @@
       </div>
       <main class="mdl-layout__content mdl-color--grey-100">
           <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
-              <thead onclick="">
-                <tr>
-                  <th class="mdl-data-table__cell--non-numeric">Treino A</th>
-                  <th><i class="material-icons" role="presentation">keyboard_arrow_down </i></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr id='row-table1'>
-                  <td class="mdl-data-table__cell--non-numeric">Acrylic (Transparent)</td>
-                  <td>25</td>
-                  <td>$2.90</td>
-                </tr>
-                <tr id='row-table1'>
-                  <td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
-                  <td>50</td>
-                  <td>$1.25</td>
-                </tr>
-                <tr id='row-table1'>
-                  <td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
-                  <td>10</td>
-                  <td>$2.35</td>
-                </tr>
-              </tbody>
+              <thead onclick="changeDisplayTable('row-table')">
+                    <tr>
+                        <th class="mdl-data-table__cell--non-numeric">Treino A</th>
+                        <th><i class="material-icons" role="presentation">keyboard_arrow_down </i></th>
+                    </tr>
+                </thead>
+                <tbody id="row-table">
+                    <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Supino</td>
+                        <td>5</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Triceps Frances</td>
+                        <td>4</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Supino Inclinado</td>
+                        <td>3</td>
+                        <td>15</td>
+                    </tr>
+                </tbody>
             </table>
 
-        <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
-              <thead onclick="">
-                <tr>
-                  <th class="mdl-data-table__cell--non-numeric">Treino B</th>
-                  <th><i class="material-icons" role="presentation">keyboard_arrow_down </i></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr id='row-table1'>
-                  <td class="mdl-data-table__cell--non-numeric">Acrylic (Transparent)</td>
-                  <td>25</td>
-                  <td>$2.90</td>
-                </tr>
-                <tr id='row-table1'>
-                  <td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
-                  <td>50</td>
-                  <td>$1.25</td>
-                </tr>
-                <tr id='row-table1'>
-                  <td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
-                  <td>10</td>
-                  <td>$2.35</td>
-                </tr>
-              </tbody>
+    <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+              <thead onclick="changeDisplayTable('row-table1')">
+                    <tr>
+                        <th class="mdl-data-table__cell--non-numeric">Treino B</th>
+                        <th><i class="material-icons" role="presentation">keyboard_arrow_down </i></th>
+                    </tr>
+                </thead>
+                <tbody id='row-table1'>
+                    <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Supino</td>
+                        <td>5</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Triceps Frances</td>
+                        <td>4</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Supino Inclinado</td>
+                        <td>3</td>
+                        <td>15</td>
+                    </tr>
+                </tbody>
             </table>
-            <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
-              <thead onclick="">
-                <tr>
-                  <th class="mdl-data-table__cell--non-numeric">Treino C</th>
-                  <th><i class="material-icons" role="presentation">keyboard_arrow_down </i></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr id='row-table1'>
-                  <td class="mdl-data-table__cell--non-numeric">Acrylic (Transparent)</td>
-                  <td>25</td>
-                  <td>$2.90</td>
-                </tr>
-                <tr id='row-table1'>
-                  <td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
-                  <td>50</td>
-                  <td>$1.25</td>
-                </tr>
-                <tr id='row-table1'>
-                  <td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
-                  <td>10</td>
-                  <td>$2.35</td>
-                </tr>
-              </tbody>
+<table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp">
+              <thead onclick="changeDisplayTable('row-table2')">
+                    <tr>
+                        <th class="mdl-data-table__cell--non-numeric">Treino C</th>
+                        <th><i class="material-icons" role="presentation">keyboard_arrow_down </i></th>
+                    </tr>
+                </thead>
+                <tbody id="row-table2">
+                    <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Supino</td>
+                        <td>5</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Triceps Frances</td>
+                        <td>4</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td class="mdl-data-table__cell--non-numeric">Supino Inclinado</td>
+                        <td>3</td>
+                        <td>15</td>
+                    </tr>
+                </tbody>
             </table>
-
       </main>
     </div>
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" style="position: fixed; left: -1000px; height: -1000px;">

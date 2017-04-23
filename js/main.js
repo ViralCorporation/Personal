@@ -1,12 +1,13 @@
 function showRowsOfTable(idTbody){
     var rowsTable = document.getElementById(idTbody);
-    rowsTable.style.display = "block";
+    rowsTable.style.display = "inherit";
 
 }
 
 function hiddenRowsOfTable(idTbody){
     var rowsTable = document.getElementById(idTbody);
     rowsTable.style.display = "none";
+    rowsTable.style.width = "100%";
 
 }
 

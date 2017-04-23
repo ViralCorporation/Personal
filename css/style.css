@@ -132,6 +132,10 @@ h4{
     padding: 0.65em 0 0.65em 0.7em;
 
 }
+#account-email{
+        padding-left: 3% !important;
+        padding-top: 2% !important;
+}
 
 #brand{
     width: 100%;

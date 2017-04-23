@@ -137,6 +137,7 @@ h4{
 }
 #demo-avatar-dropdown{
     display: inline-flex !important;
+    padding-left: 5% !important;
 }
 #account-email{
         left: 0;

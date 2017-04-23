@@ -3,12 +3,11 @@ html{
 }
 #avatar{
 
-    padding-left: 60px;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-left: 60px !important;
+    padding-top: 5%! important;
+    padding-bottom: 5% !important;
 }
-.demo-avatar{
-}
+
 
 html, body {
     position: absolute; 

@@ -132,6 +132,9 @@ h4{
     padding: 0.65em 0 0.65em 0.7em;
 
 }
+#row-table1{
+    display: none;
+}
 #demo-avatar-dropdown{
     display: inline-flex !important;
 }

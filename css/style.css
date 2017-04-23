@@ -132,6 +132,9 @@ h4{
     padding: 0.65em 0 0.65em 0.7em;
 
 }
+.demo-avatar-dropdown{
+    display: flex !important;
+}
 #account-email{
         left: 0;
         padding-left: 3% !important;

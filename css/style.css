@@ -72,11 +72,6 @@ h4{
     color: black;
 }
 
-
-.combo-view-traine{
-
-}
-
 .left{
     padding-top: 3%;
 }
@@ -132,22 +127,6 @@ h4{
     padding: 0.65em 0 0.65em 0.7em;
 
 }
-tbody{
-    display: none;
-}
-#icon-tables{
-    float: right;
-}
-
-
-#demo-avatar-dropdown{
-    display: inline-flex !important;
-    padding-left: 5% !important;
-}
-#account-email{
-        padding-left: 5% !important;
-        padding-top: 2% !important;
-}
 
 #brand{
     width: 100%;
@@ -190,18 +169,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
         font-size: 32px;
         top: 38%;
     }
-    #account-email{
-        padding-left: 3% !important;
-        padding-top: 2% !important;
-    }
-    #avatar{
-        padding-left: 60px;
-    }
-    #row_fluid{
-        left: 5%;
-        right: 5%;
-        width: 70%;
-    }
 
 }
 /* Smartphones (portrait and landscape) ———– */
@@ -217,16 +184,5 @@ only screen and (min-device-pixel-ratio : 1.5) {
         font-size: 20px;
         top: 35%;
     }
-    #account-email{
-        padding-left: 3%;
-        padding-top: 2%;
-    }
-    #avatar{
-        padding-left: 60px;
-    }
-    #row_fluid{
-        left: 5%;
-        right: 5%;
-        width: 100%;
-    }
+
 }

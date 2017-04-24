@@ -135,6 +135,9 @@ h4{
 tbody{
     display: none;
 }
+#icon-tables{
+    float: right;
+}
 
 
 #demo-avatar-dropdown{

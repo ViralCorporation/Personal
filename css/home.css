@@ -330,7 +330,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
         padding-top: 2% !important;
     }
     #avatar{
-        padding-left: 60px;
+        align-self: center;
     }
     #row_fluid{
         left: 5%;

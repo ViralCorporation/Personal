@@ -20,3 +20,7 @@ function changeDisplayTable(idTbody){
         hiddenRowsOfTable(idTbody);
     }
 }
+
+function changeArrow(id){
+
+}

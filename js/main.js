@@ -24,3 +24,53 @@ function changeDisplayTable(idTbody){
 function changeArrow(id){
 
 }
+function HiddenAll(){
+    hiddenTreinos();
+}
+function hiddenTreinos(){
+   var div = document.getElementById("treinos");
+   div.style.display = "none";
+}
+
+function openMensagens(){
+    HiddenAll();
+    var div = document.getElementById("mensagens");
+    div.style.display = "inherit";
+    changeTitleScreen("Mensagens")
+}
+
+function openMinhaConta(){
+    HiddenAll();
+    var div = document.getElementById("minha-conta");
+    div.style.display = "inherit";
+    changeTitleScreen("Minha Conta")
+}
+
+function openTreinos(){
+    HiddenAll();
+    var div = document.getElementById("treinos");
+    div.style.display = "inherit";
+    changeTitleScreen("Treinos")
+}
+function openPromocoes(){
+    HiddenAll();
+    var div = document.getElementById("promocoes");
+    div.style.display = "inherit";
+    changeTitleScreen("Promoções")
+}
+
+function openServicos(){
+    HiddenAll();
+    var div = document.getElementById("servicos");
+    div.style.display = "inherit";
+    changeTitleScreen("Serviços");
+}
+
+function changeTitleScreen(titleScreen_var){
+    var titleScreen = document.getElementById("title-screen");
+    titleScreen.innerHTML = titleScreen_var;
+}
+
+function logout(){
+
+}

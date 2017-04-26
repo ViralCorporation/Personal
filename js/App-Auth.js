@@ -31,7 +31,7 @@
     const Email = document.getElementById("email-login");
     const PassWord = document.getElementById("password-login")
     const btnLogin = document.getElementById("Login-button")
-    const btnSignUp = document.getElementById("SignUp-button")
+    const btnSignUp = document.getElementById("button-modal")
 
     btnLogin.addEventListener('click', e => {
          //Adding login event/

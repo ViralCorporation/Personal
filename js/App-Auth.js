@@ -57,8 +57,12 @@
 
     })
     btnLogout.addEventListener('click', e => {
-        firebase.auth().signOut();
-        signOutSuccessUrl: 'index.hmtl';
+        firebase.auth().signOut().then(function(){
+            //SignOut sucessefully
+        }), function(error){
+            //An error has ocurred
+        }
+
     })
 
     //Add a realtime listener

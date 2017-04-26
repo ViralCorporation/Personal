@@ -216,9 +216,11 @@ _:-ms-input-placeholder, :root .demo-graph {
 
 #avatar{
 
-   align-self: center !important;
+    align-self: center !important;
     padding-top: 5%! important;
     padding-bottom: 5% !important;
+    height: 100px;
+    width: initial;
 }
 
 html, body {
@@ -230,7 +232,22 @@ html, body {
     top:0;
     left:0;
 }
+#name-chat{
+    font-weight: bold;
+}
 body{
+
+}
+#item-conversa{
+    padding-left: 0;
+}
+.picture-contato{
+    width: 40px;
+}
+td{
+    text-align: left !important;
+    padding-left: 0;
+    padding-right: 0;
 
 }
 table{

@@ -10,6 +10,19 @@
           };
           firebase.initializeApp(config);
 
+    //Config Firebase
+    var uiConfig = {
+        signInSuccessUrl: 'home.hmtl',
+        signInOptions: [
+          // Leave the lines as is for the providers you want to offer your users.
+          firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+          firebase.auth.FacebookAuthProvider.PROVIDER_ID,
+          firebase.auth.EmailAuthProvider.PROVIDER_ID
+        ],
+        // Terms of service url.
+        tosUrl: '<your-tos-url>'
+      };
+
     //Get Elements
     const txtEmail = document.getElementById("email-signup");
     const txtName = document.getElementById("name-signup");
@@ -42,6 +55,19 @@
                 .catch(e => console.log(e.message));
         }
 
+    })
+    btLogout.addEventListener('click', e => {
+        firebase.auth().signOut();
+    })
+
+    //Add a realtime listener
+    firebase.auth().OnAuthStateChanged(firebaseUser => {
+        if(firebaseUser){
+            console.log(firebaseUser);
+            document.innerHTML.
+        } else {
+            console.log('nao logado')
+        }
     })
 
 

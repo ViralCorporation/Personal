@@ -38,7 +38,8 @@
         //Sign In
         if(txtPassword == txtConfimPassWord){
             const promise = auth.createUserWithEmailAndPassword(email, password);
-            promise.catch(e => console.log(e.message));
+            promise.then(user => console.log(user))
+                .catch(e => console.log(e.message));
         }
 
     })

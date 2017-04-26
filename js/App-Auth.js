@@ -64,7 +64,6 @@
     firebase.auth().OnAuthStateChanged(firebaseUser => {
         if(firebaseUser){
             console.log(firebaseUser);
-            document.innerHTML.
         } else {
             console.log('nao logado')
         }

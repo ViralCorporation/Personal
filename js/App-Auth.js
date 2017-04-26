@@ -56,7 +56,7 @@
         }
 
     })
-    btLogout.addEventListener('click', e => {
+    btnLogout.addEventListener('click', e => {
         firebase.auth().signOut();
         signOutSuccessUrl: 'index.hmtl',
     })

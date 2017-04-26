@@ -13,6 +13,9 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <script src="js/material.js"></script>
         <script src="js/sign-up.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+        <script src="js/App-Auth.js"></script>
        
         
 
@@ -29,19 +32,19 @@
                 <div id='fields-sign-up'>
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="label-sign">
                         <input class="mdl-textfield__input" type="text" id="sign-sample" id="label-float">
-                        <label class="mdl-textfield__label" for="sample3" id="inputfloat">Nome</label>
+                        <label class="mdl-textfield__label" for="sample3" id="name-signup">Nome</label>
                     </div>
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="label-sign">
                         <input class="mdl-textfield__input" type="text" id="sign-sample">
-                        <label class="mdl-textfield__label" for="sample3" id="inputfloat">Email</label>
+                        <label class="mdl-textfield__label" for="sample3" id="email-signup">Email</label>
                     </div>
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="label-sign">
                         <input class="mdl-textfield__input" type="password" id="sign-sample">
-                        <label class="mdl-textfield__label" for="sample3" id="inputfloat">Senha</label>
+                        <label class="mdl-textfield__label" for="sample3" id="password-signup">Senha</label>
                     </div>
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="label-sign">
                         <input class="mdl-textfield__input" type="password" id="sign-sample">
-                        <label class="mdl-textfield__label" for="sample3" id="inputfloat">Confirme a senha</label>
+                        <label class="mdl-textfield__label" for="sample3" id="confirm-password">Confirme a senha</label>
                     </div>
                     
                 </div>
@@ -57,7 +60,7 @@
         </div>
         
         <div id='form-actions' class="sign-up" >
-            <button type="button" type="submit" onclick="openSignUp()" id='button-sign-up' class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+            <button type="button" type="submit" onclick="openSignUp()" id='SignUp-button' class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
               Cadastre-se
             </button>
         </div>
@@ -81,13 +84,13 @@
                     <form action="/Personal/home.html">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="label-sign">
                             <input class="mdl-textfield__input" type="text" id="sample3">
-                            <label class="mdl-textfield__label" for="sample3">Login</label>
+                            <label class="mdl-textfield__label" for="email-login">Login</label>
                         </div>
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" id="label-sign">
                             <input class="mdl-textfield__input" type="password" id="sample3">
-                            <label class="mdl-textfield__label" for="sample3">Senha</label>
+                            <label class="mdl-textfield__label" for="password-login">Senha</label>
                         </div>
-                        <button id='button' type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                        <button id='login-button' type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
                              Entrar
                         </button>
                     </form>
@@ -106,5 +109,6 @@
                 </div>
             
         </footer>
+
     </body>
 </html>

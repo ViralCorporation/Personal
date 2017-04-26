@@ -310,6 +310,10 @@ tbody{
     text-decoration: none;
     display: inline-block;
 }
+#picture-contato{
+    width: 50px;
+    text-align: left !important;
+}
 
 
 #footer{
@@ -317,6 +321,9 @@ tbody{
     bottom: 0;
     position: absolute;
     width: 100%;
+}
+#mensagens-table{
+    display: table-row-group !important;
 }
 
 @media
@@ -336,6 +343,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
     }
 
 }
+
 /* Smartphones (portrait and landscape) ———– */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 

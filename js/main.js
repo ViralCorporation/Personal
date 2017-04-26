@@ -24,39 +24,64 @@ function changeDisplayTable(idTbody){
 function changeArrow(id){
 
 }
+
 function HiddenAll(){
     hiddenTreinos();
+    hiddenMensagens();
+    hiddenMinhaConta();
+    hiddenPromocoes();
+    hiddenServicos();
 }
+
 function hiddenTreinos(){
    var div = document.getElementById("treinos");
    div.style.display = "none";
 }
-
+function hiddenMensagens(){
+    var div = document.getElementById("mensagens");
+   div.style.display = "none";
+}
+function hiddenMinhaConta(){
+    var div = document.getElementById("minha-conta");
+    div.style.display = "none";
+}
+function hiddenPromocoes(){
+    var div = document.getElementById("promocoes");
+    div.style.display = "none";
+}
+function hiddenServicos(){
+    var div = document.getElementById("servicos");
+   div.style.display = "none";
+}
 function openMensagens(){
     HiddenAll();
     var div = document.getElementById("mensagens");
-    div.style.display = "inherit";
-    changeTitleScreen("Mensagens")
+    div.style.display = "block";
+    changeTitleScreen("Mensagens");
+    closeMenuMobile();
 }
 
 function openMinhaConta(){
     HiddenAll();
     var div = document.getElementById("minha-conta");
     div.style.display = "inherit";
-    changeTitleScreen("Minha Conta")
+    changeTitleScreen("Minha Conta");
+    closeMenuMobile();
 }
 
 function openTreinos(){
     HiddenAll();
     var div = document.getElementById("treinos");
     div.style.display = "inherit";
-    changeTitleScreen("Treinos")
+    changeTitleScreen("Treinos");
+    closeMenuMobile();
 }
 function openPromocoes(){
     HiddenAll();
     var div = document.getElementById("promocoes");
     div.style.display = "inherit";
-    changeTitleScreen("Promoções")
+    changeTitleScreen("Promoções");
+    closeMenuMobile();
 }
 
 function openServicos(){
@@ -64,6 +89,10 @@ function openServicos(){
     var div = document.getElementById("servicos");
     div.style.display = "inherit";
     changeTitleScreen("Serviços");
+    closeMenuMobile();
+}
+function closeMenuMobile(){
+    var menu = document.getElementById("container-menu");
 }
 
 function changeTitleScreen(titleScreen_var){

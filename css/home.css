@@ -221,6 +221,7 @@ _:-ms-input-placeholder, :root .demo-graph {
     padding-bottom: 5% !important;
     height: 100px;
     width: initial;
+    padding-bottom: 2%;
 }
 
 html, body {

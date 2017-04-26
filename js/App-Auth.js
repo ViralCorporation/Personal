@@ -30,6 +30,18 @@
         promise.catch(e => console.log(e.message));
     })
 
+    btnSignUp.addEventListener('click', e => {
+         //Create login event/
+        const email = txtEmailEmail.value;
+        const password = PassWord.value;
+        const auth = firebase.auth();
+        //Sign In
+        if(txtPassword == txtConfimPassWord){
+            const promise = auth.createUserWithEmailAndPassword(email, password);
+            promise.catch(e => console.log(e.message));
+        }
+
+    })
 
 
 

@@ -58,6 +58,7 @@
     })
     btLogout.addEventListener('click', e => {
         firebase.auth().signOut();
+        signOutSuccessUrl: 'index.hmtl',
     })
 
     //Add a realtime listener

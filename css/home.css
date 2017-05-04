@@ -221,7 +221,10 @@ _:-ms-input-placeholder, :root .demo-graph {
     padding-bottom: 5% !important;
     height: 100px;
     width: initial;
-    padding-bottom: 2%;
+    padding-bottom: 2%!important;
+}
+.round {
+    border-radius: 50%;
 }
 
 html, body {
@@ -235,6 +238,14 @@ html, body {
 }
 #name-chat{
     font-weight: bold;
+}
+.chat-list{
+    padding-top: 1%;
+    padding-left: 2%;
+    margin-bottom: 0;
+}
+.name-msg{
+    display: -webkit-inline-box;
 }
 body{
 

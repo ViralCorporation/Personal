@@ -1,4 +1,4 @@
-(function() {
+( function () {
     // Initialize Firebase
           var config = {
             apiKey: "AIzaSyBD4QarCQukFWylMnlrSAeeGavBAYRAnrU",
@@ -11,14 +11,14 @@
           firebase.initializeApp(config);
 
     //Get Elements
-    const txtEmail = document.getElementById("email-signup");
-    const txtName = document.getElementById("name-signup");
-    const txtPassword = document.getElementById("password-signup");
-    const txtConfimPassWord = document.getElementById("confirm-password-signup");
-    const Email = document.getElementById("email-login");
-    const PassWord = document.getElementById("password-login")
-    const btnLogin = document.getElementById("login-button")
-    const btnSignUp = document.getElementById("button-modal")
+    var txtEmail = document.getElementById("email-signup");
+    var txtName = document.getElementById("name-signup");
+    var txtPassword = document.getElementById("password-signup");
+    var txtConfimPassWord = document.getElementById("confirm-password-signup");
+    var Email = document.getElementById("email-login");
+    var PassWord = document.getElementById("password-login")
+    var btnLogin = document.getElementById("login-button")
+    var btnSignUp = document.getElementById("button-modal")
 
     btnLogin.addEventListener('click', e => {
          //Adding login event/

@@ -87,8 +87,6 @@ h4{
 #row-fluid{
     width: 25%;
     top: 55%;
-    left: 40%;
-    right: 35%;
     position: absolute;
 }
 
@@ -172,7 +170,13 @@ only screen and (min-device-pixel-ratio : 1.5) {
     .mdl-textfield__input {
         width: 200% !important;
     }
-
+    #row-fluid{
+        width: 40%;
+        top: 55%;
+        left: 10%;
+        right: 5%;
+        position: absolute;
+    }
 }
 /* Smartphones (portrait and landscape) ———– */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -189,5 +193,12 @@ only screen and (min-device-pixel-ratio : 1.5) {
     }
     .mdl-textfield__input {
         width: 200% !important;
+    }
+    #row-fluid{
+        width: 40%;
+        top: 55%;
+        left: 10%;
+        right: 5%;
+        position: absolute;
     }
 }

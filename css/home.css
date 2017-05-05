@@ -328,8 +328,9 @@ tbody{
     display: inline-flex !important;
 }
 #account-email{
-        padding-left: 5% !important;
-        padding-top: 2% !important;
+    padding-top: 7% !important;
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -361,10 +362,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
 
     /* Styles */
 
-    #account-email{
-        padding-left: 3% !important;
-        padding-top: 2% !important;
-    }
     #row_fluid{
         left: 5%;
         right: 5%;
@@ -377,11 +374,6 @@ only screen and (min-device-pixel-ratio : 1.5) {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
     /* Styles */
-
-    #account-email{
-        padding-left: 3%;
-        padding-top: 2%;
-    }
 
     #row_fluid{
         left: 5%;

@@ -187,7 +187,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
         font-size: 20px;
         top: 35%;
     }
-    .mdl-textfield {
-        width: 200%  !important;
+    .mdl-textfield__input {
+        width: 200% !important;
     }
 }

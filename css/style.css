@@ -190,7 +190,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
     }
     #brand-name{
         font-size: 20px;
-        top: 35%;
+        top: 38%;
     }
     .mdl-textfield__input {
         width: 200% !important;

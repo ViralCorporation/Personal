@@ -124,6 +124,8 @@ h4{
     color: white;
     margin-top: -0.7em;
     padding: 0.65em 0 0.65em 0.7em;
+    padding-top: 5%;
+    padding-bottom: 5%;
 
 }
 
@@ -163,6 +165,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
     .icon{
         width: 7%;
         left: 47%;
+        top: 5%;
     }
     #brand-name{
         font-size: 32px;
@@ -186,6 +189,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
     .icon{
         width: 17%;
         left: 44%;
+        top: 5%;
 
     }
     #brand-name{

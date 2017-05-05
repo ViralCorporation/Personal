@@ -169,12 +169,8 @@ only screen and (min-device-pixel-ratio : 1.5) {
         font-size: 32px;
         top: 38%;
     }
-      #row-fluid{
-        width: 100%;
-        top: 55%;
-        left: 0;
-        right: 0%;
-        position: absolute;
+    .mdl-textfield__input {
+        width: 200% !important;
     }
 
 }
@@ -191,12 +187,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
         font-size: 20px;
         top: 35%;
     }
-    #row-fluid{
-        width: 100%;
-        top: 55%;
-        left: 0;
-        right: 0%;
-        position: absolute;
+    .mdl-textfield {
+        width: 200%  !important;
     }
-
 }

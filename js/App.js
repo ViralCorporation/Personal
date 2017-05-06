@@ -1,29 +1,20 @@
-( function () {
-    // Initialize Firebase
-          var config = {
-            apiKey: "AIzaSyBD4QarCQukFWylMnlrSAeeGavBAYRAnrU",
-            authDomain: "personal-9b554.firebaseapp.com",
-            databaseURL: "https://personal-9b554.firebaseio.com",
-            projectId: "personal-9b554",
-            storageBucket: "personal-9b554.appspot.com",
-            messagingSenderId: "234589868101"
-          };
-          firebase.initializeApp(config);
-
+(function () {
     //Get Elements
-    var txtEmail = document.getElementById("email-signup");
-    var txtName = document.getElementById("name-signup");
-    var txtPassword = document.getElementById("password-signup");
-    var txtConfimPassWord = document.getElementById("confirm-password-signup");
-    var Email = document.getElementById("email-login");
-    var PassWord = document.getElementById("password-login")
-    var btnLogin = document.getElementById("login-button")
-    var btnSignUp = document.getElementById("button-modal")
+
+    "use strict";
+    var txtEmail = document.getElementById("email-signup"),
+        txtName = document.getElementById("name-signup"),
+        txtPassword = document.getElementById("password-signup"),
+        txtConfimPassWord = document.getElementById("confirm-password-signup"),
+        Email = document.getElementById("email-login"),
+        PassWord = document.getElementById("password-login"),
+        btnLogin = document.getElementById("btnLogin"),
+        btnSignUp = document.getElementById("button-modal");
 
     btnLogin.addEventListener('click', e => {
          //Adding login event/
-        const email = Email.value;
-        const password = PassWord.value;
+        var email = Email.value,
+            password = PassWord.value;
 
         //Sign In
         const promise = auth.SignInWithEmailAndPassword(email, password);

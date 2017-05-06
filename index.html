@@ -90,7 +90,7 @@
                             <label class="mdl-textfield__label" for="password-login">Senha</label>
                         </div>
                         <div>
-                            <button id='login-button' type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                            <button id="btnLogin" type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
                                  Entrar
                             </button>
                         </div>
@@ -108,7 +108,19 @@
 
                 </div>
                 </div>
-            
+            <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+            <script>
+              // Initialize Firebase
+              var config = {
+                apiKey: "AIzaSyBD4QarCQukFWylMnlrSAeeGavBAYRAnrU",
+                authDomain: "personal-9b554.firebaseapp.com",
+                databaseURL: "https://personal-9b554.firebaseio.com",
+                projectId: "personal-9b554",
+                storageBucket: "personal-9b554.appspot.com",
+                messagingSenderId: "234589868101"
+              };
+              firebase.initializeApp(config);
+            </script>
         </footer>
 
     </body>

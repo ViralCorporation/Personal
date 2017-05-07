@@ -15,7 +15,7 @@
 
     //Get Elements
     const emailLogin = document.getElementById("login-txt"),
-        passLogin = document.getElementById("password-text"),
+        passLogin = document.getElementById("password-txt"),
         btnLogin = document.getElementById("btnLogin"),
         emailSignUp = document.getElementById("email-signup"),
         passSignUp = document.getElementById("password-signup"),

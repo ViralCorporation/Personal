@@ -20,9 +20,7 @@
         emailSignUp = document.getElementById("email-signup"),
         passSignUp = document.getElementById("password-signup"),
         confirmPassSignUp = document.getElementById("confirm-password"),
-        btnSignUp = document.getElementById("btnCadastro"),
-        btnLogout = document.getElementById("btnLogout");
-
+        btnSignUp = document.getElementById("btnCadastro");
     btnLogin.addEventListener('click', e=> {
         //Get email and Pass
         const email = emailLogin.value,
@@ -30,7 +28,39 @@
             auth = firebase.auth(),
             promise = auth.signInWithEmailAndPassword(email, pass);
         promise.catch(e => console.log(e.message));
+
+        if (firebase.auth().currentUser) {
+        // [START signout]
+        firebase.auth().signOut();
+        // [END signout]
+      } else {
+        if (email.length < 4) {
+          alert('Please enter an email address.');
+          return;
+        }
+        if (pass.length < 4) {
+          alert('Please enter a password.');
+          return;
+        }
+        // Sign in with email and pass.
+        // [START authwithemail]
+        firebase.auth().signInWithEmailAndPassword(email, pass).catch(function(error) {
+          // Handle Errors here.
+          var errorCode = error.code;
+          var errorMessage = error.message;
+          // [START_EXCLUDE]
+          if (errorCode === 'auth/wrong-password') {
+            alert('Wrong password.');
+          } else {
+            alert(errorMessage);
+          }
+          console.log(error);
+          // [END_EXCLUDE]
+        });
+        // [END authwithemail]
+      }
     });
+
     btnSignUp.addEventListener('click', e =>{
        //Get Email and confirm password
         const email = emailSignUp.value,
@@ -38,21 +68,39 @@
               confirmPass = confirmPassSignUp.value,
               auth = firebase.auth();
 
-        const promise = auth.createUserWithEmailAndPassword(email, pass);
+        if(pass == confirmPass){
+            const promise = auth.createUserWithEmailAndPassword(email, pass).catch(function(error) {
+                              // Handle Errors here.
+                              var errorCode = error.code;
+                              var errorMessage = error.message;
+                              if (errorCode == 'auth/invalid-email') {
+                                alert('The email is invalid.');
+                                  }
+                              if (errorCode == 'auth/weak-password') {
+                                alert('The password is too weak.');
+                              } else {
+                                alert(errorMessage);
+                              }
+                              console.log(error)});
 
-        promise.catch(e => console.log(e.message));
-
-
-    });
-    btnLogout.addEventListener('click', e =>{
-       firebase.auth().SignOut();
+            // [START sendemailverification]
+              firebase.auth().currentUser.sendEmailVerification().then(function() {
+                // Email Verification sent!
+                // [START_EXCLUDE]
+                alert('Email Verification Sent!');
+                // [END_EXCLUDE]
+              });
+              // [END sendemailverification]
+        } else {
+            alert("Senhas não conferem");
+        }
     });
 
     firebase.auth().onAuthStateChanged(firebaseUser => {
         if(firebaseUser){
             console.log(firebaseUser);
         } else {
-            console.log("not logged")
+            console.log("not logged");
         }
     });
 

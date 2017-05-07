@@ -42,7 +42,7 @@
         promise.catch(e => console.log(e.message));
     });
 
-    firebase.auth() onAuthStagedChanged(firebaseUser => {
+    firebase.auth().onAuthStagedChanged(firebaseUser => {
         if(firebaseUser){
             console.log(firebaseUser);
         } else {

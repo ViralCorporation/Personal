@@ -14,7 +14,7 @@
     firebase.initializeApp(config);
 
     //Get Elements
-    var emailLogin = document.getElementById("login-txt"),
+    const emailLogin = document.getElementById("login-txt"),
         passLogin = document.getElementById("password-text"),
         btnLogin = document.getElementById("btnLogin"),
         emailSignUp = document.getElementById("email-signup"),
@@ -24,12 +24,12 @@
 
     btnLogin.addEventListener('click', e=> {
         //Get email and Pass
-        var email = emailLogin.value,
+        const email = emailLogin.value,
             pass = passLogin.value,
             auth = firebase.auth(),
             promise = auth.SignInWithEmailAndPassword(email, pass);
         promise.catch(login => console.log(login.message));
-    })
+    });
 
-}())
+}());
 

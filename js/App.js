@@ -52,7 +52,7 @@
           if (errorCode === 'auth/wrong-password') {
             alert('Wrong password.');
           } else {
-            alert(errorMessage);
+            console.log(errorMessage);
           }
           console.log(error);
           // [END_EXCLUDE]

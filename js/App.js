@@ -22,7 +22,7 @@
         confirmPassSignUp = document.getElementById("confirm-password"),
         btnSignUp = document.getElementById("btnCadastro");
 
-    btnLogin.addEventListener('click', function login() {
+    btnLogin.addEventListener('click', e=> {
         //Get email and Pass
         var email = emailLogin.value,
             pass = passLogin.value,

@@ -20,7 +20,8 @@
         emailSignUp = document.getElementById("email-signup"),
         passSignUp = document.getElementById("password-signup"),
         confirmPassSignUp = document.getElementById("confirm-password"),
-        btnSignUp = document.getElementById("btnCadastro");
+        btnSignUp = document.getElementById("btnCadastro"),
+        btnLogout = document.getElementById("btnLogout");
 
     btnLogin.addEventListener('click', e=> {
         //Get email and Pass
@@ -40,6 +41,11 @@
         const promise = auth.createUserWithEmailAndPassword(email, pass);
 
         promise.catch(e => console.log(e.message));
+
+
+    });
+    btnLogout.addEventListener('click', e =>{
+       firebase.auth().SignOut();
     });
 
     firebase.auth().onAuthStateChanged(firebaseUser => {

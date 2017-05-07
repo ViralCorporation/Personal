@@ -11,25 +11,23 @@
         btnLogin = document.getElementById("btnLogin"),
         btnSignUp = document.getElementById("button-modal");
 
-    btnLogin.addEventListener('click', e => {
+    btnLogin.addEventListener("click", function login() {
          //Adding login event/
         var email = Email.value,
+            password = PassWord.value,
+            promise = auth.SignInWithEmailAndPassword(email, password);
+
+        promise.catch(e => console.log(function().message));
+    })
+
+    btnSignUp.addEventListener("click", e => {
+         //Create login event/
+        var email = txtEmailEmail.value,
             password = PassWord.value;
 
         //Sign In
-        const promise = auth.SignInWithEmailAndPassword(email, password);
-
-        promise.catch(e => console.log(e.message));
-    })
-
-    btnSignUp.addEventListener('click', e => {
-         //Create login event/
-        const email = txtEmailEmail.value;
-        const password = PassWord.value;
-
-        //Sign In
         if(txtPassword == txtConfimPassWord){
-            const promise = auth.createUserWithEmailAndPassword(email, password);
+            var promise = auth.createUserWithEmailAndPassword(email, password);
             promise.then(user => console.log(user))
                 .catch(e => console.log(e.message));
         }

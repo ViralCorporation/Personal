@@ -28,7 +28,7 @@
             pass = passLogin.value,
             auth = firebase.auth(),
             promise = auth.SignInWithEmailAndPassword(email, pass);
-        promise.catch(login => console.log(login.message));
+        promise.catch(e => console.log(e.message));
     });
 
 }());

@@ -27,7 +27,7 @@
         const email = emailLogin.value,
             pass = passLogin.value,
             auth = firebase.auth(),
-            promise = auth.SignInWithEmailAndPassword(email, pass);
+            promise = auth.signInWithEmailAndPassword(email, pass);
         promise.catch(e => console.log(e.message));
     });
     btnSignUp.addEventListener('click', e =>{

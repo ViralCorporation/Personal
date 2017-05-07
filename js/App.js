@@ -34,7 +34,8 @@
        //Get Email and confirm password
         const email = emailSignUp.value,
               pass = passSignUp.value,
-              confirmPass = confirmPassSignUp.value;
+              confirmPass = confirmPassSignUp.value,
+              auth = firebase.auth();
 
         const promise = auth.createUserWithEmailAndPassword(email, pass);
 

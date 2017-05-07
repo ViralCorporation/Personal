@@ -102,6 +102,9 @@ h4{
 #row-fluid-principal{
     display:inline-table;
 }
+.mdl-textfield{
+    width: 200%;
+}
 
 #brand-name{
     color: white;

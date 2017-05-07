@@ -1,45 +1,35 @@
 (function () {
+
+  // Initialize Firebase
+
+    'use strict';
+    var config = {
+        apiKey: "AIzaSyBD4QarCQukFWylMnlrSAeeGavBAYRAnrU",
+        authDomain: "personal-9b554.firebaseapp.com",
+        databaseURL: "https://personal-9b554.firebaseio.com",
+        projectId: "personal-9b554",
+        storageBucket: "personal-9b554.appspot.com",
+        messagingSenderId: "234589868101"
+    };
+    firebase.initializeApp(config);
+
     //Get Elements
-
-    "use strict";
-    var txtEmail = document.getElementById("email-signup"),
-        txtName = document.getElementById("name-signup"),
-        txtPassword = document.getElementById("password-signup"),
-        txtConfimPassWord = document.getElementById("confirm-password-signup"),
-        Email = document.getElementById("email-login"),
-        PassWord = document.getElementById("password-login"),
+    var emailLogin = document.getElementById("login-txt"),
+        passLogin = document.getElementById("password-text"),
         btnLogin = document.getElementById("btnLogin"),
-        btnSignUp = document.getElementById("button-modal");
+        emailSignUp = document.getElementById("email-signup"),
+        passSignUp = document.getElementById("password-signup"),
+        confirmPassSignUp = document.getElementById("confirm-password"),
+        btnSignUp = document.getElementById("btnCadastro");
 
-    btnLogin.addEventListener("click", function login() {
-         //Adding login event/
-        var email = Email.value,
-            password = PassWord.value,
-            promise = auth.SignInWithEmailAndPassword(email, password);
-
-        promise.catch(e => console.log(function().message));
+    btnLogin.addEventListener('click', function login() {
+        //Get email and Pass
+        var email = emailLogin.value,
+            pass = passLogin.value,
+            auth = firebase.auth(),
+            promise = auth.SignInWithEmailAndPassword(email, pass);
+        promise.catch(login => console.log(login.message));
     })
 
-    btnSignUp.addEventListener("click", e => {
-         //Create login event/
-        var email = txtEmailEmail.value,
-            password = PassWord.value;
+}())
 
-        //Sign In
-        if(txtPassword == txtConfimPassWord){
-            var promise = auth.createUserWithEmailAndPassword(email, password);
-            promise.then(user => console.log(user))
-                .catch(e => console.log(e.message));
-        }
-
-    })
-    btnLogout.addEventListener('click', e => {
-        firebase.auth().signOut().then(function(){
-            //SignOut sucessefully
-        }), function(error){
-            //An error has ocurred
-        }
-
-    })
-
-})

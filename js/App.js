@@ -48,7 +48,7 @@
         } else {
             console.log("not logged")
         }
-    })
+    });
 
-}());
+}())
 

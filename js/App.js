@@ -14,13 +14,15 @@
     firebase.initializeApp(config);
 
     //Get Elements
-    const emailLogin = document.getElementById("login-txt"),
-        passLogin = document.getElementById("password-txt"),
-        btnLogin = document.getElementById("btnLogin"),
-        emailSignUp = document.getElementById("email-signup"),
-        passSignUp = document.getElementById("password-signup"),
-        confirmPassSignUp = document.getElementById("confirm-password"),
-        btnSignUp = document.getElementById("btnCadastro");
+    var emailLogin = document.getElementById("login-txt");
+    var passLogin = document.getElementById("password-txt");
+    var btnLogin = document.getElementById("btnLogin");
+    var emailSignUp = document.getElementById("email-signup");
+    var passSignUp = document.getElementById("password-signup");
+    var confirmPassSignUp = document.getElementById("confirm-password");
+
+    var btnSignUp = document.getElementById("btnCadastro");
+
     btnLogin.addEventListener('click', e=> {
         //Get email and Pass
         const email = emailLogin.value,
@@ -122,9 +124,9 @@
     firebase.initializeApp(config);
 
    //Get Elements
-    const emailLogin = $("#login-txt"),
-        passLogin = $("#password-txt"),
-        btnLogin = $("#btnLogin"),
+    var emailLogin = $("#login-txt");
+    var passLogin = $("#password-txt");
+        btnLogin = $("#btnLogin,
         emailSignUp = $("#email-signup"),
         passSignUp = $("#password-signup"),
         confirmPassSignUp = $("#confirm-password"),

@@ -12,5 +12,5 @@ function signUp(){
     closeSignUp()
 }
 function cleanFieldSignUp(){
-    
+
 }

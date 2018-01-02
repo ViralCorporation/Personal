@@ -1,6 +1,7 @@
 html{
 
 }
+
 #avatar{
 
     padding-left: 60px !important;
@@ -10,12 +11,12 @@ html{
 
 
 html, body {
-    position: absolute; 
-    width: 100%; 
-    height: 100%; 
-    margin: 0; 
-    padding: 0; 
-    top:0; 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    top:0;
     left:0;
 }
 body{
@@ -97,6 +98,11 @@ h4{
 }
 
 .label-sign{
+    color: white !important;
+    }
+#login-txt{
+    color: white;
+}#password-txt{
     color: white;
 }
 #row-fluid-principal{
@@ -136,14 +142,14 @@ h4{
 .icon{
     position: absolute;
     display: inline-block;
-    left: 46.5%;
-    top: 17%;
-    width: 7.5%;
+    left: 43%;
+    top: 20%;
+    width: 14%;
 }
 
 .button-personal{
     border: white;
-    text-align: center; 
+    text-align: center;
     text-decoration: none;
     display: inline-block;
 }
@@ -156,62 +162,31 @@ h4{
     width: 100%;
 }
 
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-
-    /* Styles */
-    .icon{
-        width: 7%;
-        left: 47%;
-    }
-    #brand-name{
-        font-size: 32px;
-        top: 38%;
-    }
-    .mdl-textfield__input {
-        width: 200% !important;
-    }
-     .mdl-textfield__label {
-        width: 200% !important;
-    }
-    #row-fluid{
-        width: 40%;
-        top: 55%;
-        left: 10%;
-        right: 5%;
-        position: absolute;
-    }
-}
 /* Smartphones (portrait and landscape) ———– */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
     /* Styles */
     .icon{
-        width: 17%;
-        left: 44%;
-    }
-    #brand-name{
-        font-size: 20px;
-        top: 38%;
-    }
-    .mdl-textfield__input {
-        width: 200% !important;
+        width: 36%;
+        left: 34%;
     }
 
-    .mdl-textfield__label {
-        width: 200% !important;
-    }
     #row-fluid{
-        width: 40%;
+        width: 60%;
         top: 55%;
-        left: 10%;
-        right: 5%;
+        left: 20%;
         position: absolute;
     }
     #btnLogin{
         float: right;
         right: 0;
+        width: 10%;
     }
-
+    #form-login{
+        width: 100%;
+    }
+    #label-sign{
+        width: 100%;
+        font-size: 35px;
+    }
 }

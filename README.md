@@ -1,4 +1,4 @@
-# App_Gym_JM_
+# Personal
  <b>
  Documentação de projeto para gerenciamento de treinos de atividades fisicas.<br>
  Por: Melisse Cabral, Julio Lima<br>

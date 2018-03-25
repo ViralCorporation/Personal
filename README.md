@@ -156,9 +156,6 @@
  
  <p align="justify" >A tela inicial será a tela de apresentação contendo apenas a logo do aplicativo e mais dois botões "Novo por aqui?" e "Não" que levam o usuário a tela de cadastro e a tela de login respectivamente.
  
- <p align="center" >
-![inicial](https://cloud.githubusercontent.com/assets/9977351/18917578/95d19126-856e-11e6-841d-7c4394a5fdf2.jpg)
- 
  <h3>Tela de Cadastro</h3>
  
  Na tela de cadastro haverá apenas três campos de informações necessárias para criação de conta, deixando pra complemtentar as outrar informações posteriormente após um primeiro contato do usuário com a aplicativo deixando na mão do usuário a escolha de um momento oportuno para completar o cadastro. Contando também com a opção de realizar o cadastro com o facebook ou instagram. 
